@@ -9,6 +9,7 @@
 import Cocoa
 
 class ViewController: NSViewController {
+    var employees: [Employee] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
